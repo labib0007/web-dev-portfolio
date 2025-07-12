@@ -153,7 +153,7 @@ main section{
 }
 
 /* skills section styles */
-.skills{
+.my-skills{
         text-align: center;
 }
 .skills-container{
@@ -173,4 +173,28 @@ main section{
 
 .skill-description{
     color: #757575;
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-subtitle{
+    color:#757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
 }
